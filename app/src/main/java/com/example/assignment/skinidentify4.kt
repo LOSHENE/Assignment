@@ -12,13 +12,6 @@ class skinidentify4 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.skinidentify4)
 
-        imageView9.setOnClickListener {
-
-            val intent: Intent = Intent(
-                this, skinIdentify::class.java
-            )
-            startActivity(intent)
-        }
 
     }
 }

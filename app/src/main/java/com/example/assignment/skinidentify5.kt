@@ -13,13 +13,5 @@ class skinidentify5: AppCompatActivity() {
         setContentView(R.layout.skinidentify5)
 
 
-        imageView10.setOnClickListener {
-
-            val intent: Intent = Intent(
-                this, skinIdentify::class.java
-            )
-            startActivity(intent)
-        }
-
     }
 }

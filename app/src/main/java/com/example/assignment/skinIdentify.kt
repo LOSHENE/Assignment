@@ -11,16 +11,11 @@ class skinIdentify: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.skinidentify1)
-        imageView2.setOnClickListener {
 
-            val intent: Intent = Intent(
-                this, skinIdentify::class.java
-            )
-            startActivity(intent)
+
         }
 
 
 
 
     }
-}

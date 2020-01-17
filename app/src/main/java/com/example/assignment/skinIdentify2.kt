@@ -12,13 +12,7 @@ class skinIdentify2: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.skinidentify2)
 
-        imageView3.setOnClickListener {
 
-            val intent: Intent = Intent(
-                this, skinIdentify2::class.java
-            )
-            startActivity(intent)
-        }
 
     }
     }

@@ -114,6 +114,8 @@ class Database (context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, nul
         return users
     }
 
+
+
     companion object {
         // If you change the database schema, you must increment the database version.
         val DATABASE_VERSION = 102

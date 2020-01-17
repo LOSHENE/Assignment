@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="110dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="@+id/textView14"
+            app:layout_constraintTop_toTopOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="134dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoe"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="252dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            app:layout_constraintTop_toTopOf="@+id/textView15"
+            tools:layout_editor_absoluteX="130dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="400dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            app:layout_constraintBottom_toBottomOf="@+id/textView26"
+            app:layout_constraintTop_toTopOf="@+id/textView26"
+            tools:layout_editor_absoluteX="127dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

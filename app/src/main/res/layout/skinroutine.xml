@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="731dp"
+
+        tools:layout_conversion_absoluteHeight="731dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textViewLabelSR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/heading1244"
+            android:textSize="36sp"
+            app:fontFamily="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_conversion_absoluteHeight="54dp"
+            tools:layout_conversion_absoluteWidth="261dp" />
+
+        <Button
+            android:id="@+id/buttonNight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="184dp"
+            android:padding="0dp"
+            android:text="@string/night"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="411dp" />
+
+        <Button
+            android:id="@+id/buttonMorg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/morning"
+            app:layout_constraintBottom_toTopOf="@+id/buttonNight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewInstructions"
+            tools:ignore="MissingConstraints"
+            android:clickable="true"
+            android:focusable="true"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="411dp" />
+
+        <TextView
+            android:id="@+id/textViewInstructions"
+            android:layout_width="405dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/Content1"
+            app:fontFamily="casual"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLabelSR"
+            tools:layout_conversion_absoluteHeight="70dp"
+            tools:layout_conversion_absoluteWidth="395dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

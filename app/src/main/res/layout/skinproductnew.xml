@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/heading6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/myCoordinatorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/HeadingNew"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/product2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="174dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/product3" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/product4" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/heading4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/heading5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/buy1"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/Add2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/buy2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/Add3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/buy3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button9" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="336dp"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>
